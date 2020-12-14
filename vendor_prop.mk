@@ -125,6 +125,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1
 
+#LMK 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lmk.use_psi=true \
+    ro.lmk.psi_complete_stall_ms=200 \
+    ro.lmk.thrashing_limit=30 \
+    ro.lmk.swap_util_max=100
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     mm.enable.qcom_parser=4176895 \
