@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_rolex.mk
+    $(LOCAL_DIR)/lineage_rolex.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_rolex-user \
-    corvus_rolex-userdebug
+    lineage_rolex-user \
+    lineage_rolex-userdebug
